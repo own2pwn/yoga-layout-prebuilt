@@ -1,16 +1,16 @@
 {
-	"name": "yoga-layout-prebuilt",
-	"version": "1.10.0",
+	"name": "yoga-layout-prebuilt-o2p",
+	"version": "1.10.1",
 	"description": "Prebuilt yoga-layout package",
 	"license": "MIT",
-	"repository": "vadimdemedes/yoga-layout-prebuilt",
+	"repository": "own2pwn/yoga-layout-prebuilt",
 	"author": {
 		"name": "Vadim Demedes",
 		"email": "vdemedes@gmail.com",
 		"url": "github.com/vadimdemedes"
 	},
 	"engines": {
-		"node": ">=8"
+		"node": ">=12"
 	},
 	"scripts": {
 		"build": "./build.sh",
@@ -37,6 +37,6 @@
 		]
 	},
 	"dependencies": {
-		"@types/yoga-layout": "1.9.2"
+		"@types/yoga-layout": "1.9.3"
 	}
 }
